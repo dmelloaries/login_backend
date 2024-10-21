@@ -17,7 +17,7 @@ const app = express();
 const PORT = process.env.PORT || 5001;
 
 // CORS configuration
-const allowedOrigins = ["http://localhost:3000"];
+const allowedOrigins = ["http://localhost:3000","https://swiggy-clone-two-mu.vercel.app"];
 
 app.use(
   cors({
